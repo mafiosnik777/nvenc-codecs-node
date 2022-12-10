@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "rebuild": "node-gyp rebuild",
-    "install": "npm run rebuild"
+    "install": "npm run rebuild",
+    "test": "node test.js"
   },
   "keywords": [
     "nvenc",
