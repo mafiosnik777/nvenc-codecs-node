@@ -1,8 +1,8 @@
 let isWin = process.platform === "win32";
 const execSync = require('child_process').execSync;
+const path = require('path');
 
-const binary = isWin ? ".\\build\\Release\\nvenc_codecs_node.exe" : "./build/Release/nvenc_codecs_node"
-
+const binary = isWin ? path.resolve(__dirname, "./build/Release/nvenc_codecs_node.exe") : path.resolve(__dirname, "./build/Release/nvenc_codecs_node")
 class nvencDevice {
   static supports(codec) {
     const cmd = `"${binary}"`;
