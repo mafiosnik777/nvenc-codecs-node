@@ -1,0 +1,20 @@
+{
+  "name": "nvenc-codecs",
+  "version": "1.0.0",
+  "description": "Using NVIDIA Video Codec SDK to check encoder capatibilty of current GPU",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "node-gyp rebuild",
+    "install": "npm run rebuild"
+  },
+  "keywords": [
+    "nvenc",
+    "node"
+  ],
+  "author": "mafiosnik",
+  "license": "GPL-3.0-or-later",
+  "gypfile": true,
+  "dependencies": {
+    "node-gyp": "^9.3.0"
+  }
+}
