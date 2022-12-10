@@ -8,7 +8,7 @@ Using NVIDIA Video Codec SDK (nvEncodeAPI.h) to check encoder capatibilty of cur
 # Basic Usage
 
 ```js
-const nvencCodecs = require("@mafiosnik/nvenc-codecs");
+const nvencDevice = require("@mafiosnik/nvenc-codecs");
 
 //Choose to test for either 'H264', 'HEVC', 'AV1'
 console.log(nvencDevice.supports('AV1'));
