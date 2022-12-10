@@ -1,5 +1,5 @@
 {
-  "name": "nvenc-codecs",
+  "name": "@mafiosnik777/nvenc-codecs",
   "version": "1.0.0",
   "description": "Using NVIDIA Video Codec SDK to check encoder capatibilty of current GPU",
   "main": "index.js",
@@ -12,6 +12,13 @@
     "node"
   ],
   "author": "mafiosnik",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafiosnik777/nvenc-codecs-node"
+  },
+  "publishConfig": {
+    "@mafiosnik777:registry": "https://npm.pkg.github.com"
+  },
   "license": "GPL-3.0-or-later",
   "gypfile": true,
   "dependencies": {
