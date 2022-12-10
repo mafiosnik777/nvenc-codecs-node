@@ -3,7 +3,7 @@ Using NVIDIA Video Codec SDK (nvEncodeAPI.h) to check encoder capatibilty of cur
 
 # Installation
 
-```npm install @mafiosnik777/nvenc-codecs@1.0.0```
+```npm install @mafiosnik/nvenc-codecs```
 
 # Basic Usage
 
