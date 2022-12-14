@@ -1,6 +1,6 @@
 {
   "name": "@mafiosnik/nvenc-codecs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Using NVIDIA Video Codec SDK to check encoder capatibilty of current GPU",
   "main": "index.js",
   "scripts": {

@@ -12,6 +12,7 @@ class nvencDevice {
         return true;
       } else if (checkCodecs.includes('Driver does not support the reqired nvenc API version')) {
         console.error('checkCodecs');
+        return checkCodecs;
       } else {
         return false;
       }
@@ -22,4 +23,3 @@ class nvencDevice {
 }
 
 module.exports = nvencDevice;
-
