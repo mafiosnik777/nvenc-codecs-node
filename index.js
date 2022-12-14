@@ -10,6 +10,8 @@ class nvencDevice {
       let checkCodecs = execSync(cmd, { windowsHide: true, encoding: "utf8" });
       if (checkCodecs.includes(codec)) {
         return true;
+      } else if (checkCodecs.includes('Driver does not support the reqired nvenc API version')) {
+        console.error('checkCodecs');
       } else {
         return false;
       }
